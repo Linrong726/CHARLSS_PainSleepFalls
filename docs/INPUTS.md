@@ -22,9 +22,11 @@ Place the Harmonized Version D codebook (June 2021, regular waves 2011–2018) a
 
 The separate historical source-audit command in `inherited/audit11.py` also requires `Harmonized CHARLS/H_CHARLS_D_do_file.zip` (SHA-256 `ebda374d0dbf1f192f1617f5c5cb4624126eb2fae41385b29365dc8c93845199`) and `2011 CHARLS Wave1/CHARLS2011________.doc` (SHA-256 `689a7365fa93ae7996f2c352df53d4b4254edad29efe936f0f343d834828bbb1`) from the corresponding official distribution, plus the historical project archives. The main analysis imports reusable audit functions and does not invoke that standalone command. The extra documentation files and the original archives are not required for the main entry point.
 
-The project variable dictionary and input lock accompany the code under `analysis/code/reference`. For the analysis entry point, copy these two frozen verification records from the separate reproducibility package, retaining their relative paths:
+The project variable dictionary and input lock accompany the code under `analysis/code/reference`. For the analysis entry point, obtain the manuscript's Additional file 4 (`CHARLS_PainSleepFalls_Reproducibility_Inputs_v1_0.zip`) and install these two frozen aggregate verification records using its README and `verify_install.py`, retaining their relative paths:
 
 - `analysis/code/reference/v121/01_patch/analysis_invariance.json`
 - `analysis/code/reference/v21/08_QA_AND_REPRODUCIBILITY/nonfit_summary.json`
+
+These two records are required by the cohort and design checks; do not omit them or disable those checks. Additional file 4 contains nine frozen input files in total: these two records, six figure CSVs and the figure-source map. It does not contain the original participant-level data, which must be acquired separately under the provider's access terms.
 
 Obtain the provider's codebook, questionnaire and construction script directly.
