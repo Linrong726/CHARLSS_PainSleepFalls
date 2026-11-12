@@ -1,0 +1,16 @@
+﻿来源号,用途,本地文件／归档内定位,官方资料或来源说明
+H11,2011健康模块,2011 CHARLS Wave1/household_and_community_questionnaire_data/health_status_and_functioning.dta,Household2011.doc，导出PDF的物理页自1起算。https://charls.pku.edu.cn/en/data/Household2011.doc
+D11,2011人口学模块,2011 CHARLS Wave1/household_and_community_questionnaire_data/demographic_background.dta,2011数据发布；BD001映射按实际Stata标签和v1.2冻结配置
+T11,2011访谈年月,2011 CHARLS Wave1/household_and_community_questionnaire_data/weight.dta,仅使用访谈年月及连接，主模型不使用抽样权重
+H15,2015健康模块,2015 CHARLS Wave3/CHARLS2015r/Health_Status_and_Functioning.dta,2015 Household Questionnaire，PDF物理页。https://charls.pku.edu.cn/en/data/Household2015.pdf
+D15,2015人口学模块,2015 CHARLS Wave3/CHARLS2015r/Demographic_Background.dta,用于独立确认实访及与健康模块覆盖比较
+T15,2015访谈年月与死亡,2015 CHARLS Wave3/CHARLS2015r/Sample_Infor.dta,实际发布文件标签和v1.2.1来源回连审计
+H18,2018健康模块,2018 CHARLS Wave4/CHARLS2018r/Health_Status_and_Functioning.dta,2018 Household Questionnaire，PDF物理页。https://charls.charlsdata.com/Public/ashelf/public/uploads/document/2018-charls-wave4/application/CHARLS_2018_Household_Questionnaire.pdf
+D18,2018人口学模块,2018 CHARLS Wave4/CHARLS2018r/Demographic_Background.dta,用于独立确认2018实访
+T18,2018访谈年月与死亡,2018 CHARLS Wave4/CHARLS2018r/Sample_Infor.dta,实际发布文件标签和冻结时间规则
+H-D,Harmonized CHARLS D,Harmonized CHARLS/H_CHARLS_D_Data.zip → H_CHARLS_D_Data.dta,官方字典HC及v1.2.1冻结文件哈希；桥与扩展协变量
+HC,Harmonized D字典,Harmonized CHARLS/Harmonized_CHARLS_D.pdf,r3iwstat 第31物理页、第30印刷页。https://charls.pku.edu.cn/en/team/Codebook.pdf
+R13,官方ID格式说明,2013 CHARLS Release Note，§3,https://charls.pku.edu.cn/en/data/Release2013.pdf
+根路径,本地原始来源根,data_root (config.local.json),以上原始文件路径相对于此根目录。工作簿只列变量定义，无受访者记录
+v1.2.1,冻结代码／跟踪证据,"06_handoff/source/legacy/{audit_core.py,cohort.py,config_v1_2.json}；source/tracking_patch.py；01_patch/tracking_source_evidence.json",审计来源。v2.0主与扩展模型设定来自08_ANALYSIS_SPECIFICATION/analysis_spec.json、protocol_source.md和sap_source.md
+v2.1,睡眠等级和月份间隔,06_ANALYSIS_SPECIFICATION_v2.1/；tables/ 非拟合汇总,v2.1仅更新基线睡眠等级和回顾长度。配置、DAG与Protocol/SAP统一；正式分析未授权。

@@ -1,0 +1,3 @@
+# The release and figure-source data are compared byte for byte.
+/data/aggregate/** -text
+/reference/FIGURE_SOURCE_LONG.csv -text

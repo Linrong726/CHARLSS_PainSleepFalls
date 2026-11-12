@@ -1,0 +1,68 @@
+[
+  {
+    "role": "Harmonized D linkage and covariates",
+    "file": "Harmonized CHARLS/H_CHARLS_D_Data.zip",
+    "sha256": "cc92ceb68d94d19fa7fc1b9b04a5d2e23dcaea6ef381418ce38144debfa764ac",
+    "used_in": "analysis"
+  },
+  {
+    "role": "2011 health_status_and_functioning",
+    "file": "2011 CHARLS Wave1/household_and_community_questionnaire_data/health_status_and_functioning.dta",
+    "sha256": "87bae0f7e75899ba3c844985aceaed42dd9e60483edbebc9c402d3cb866a810e",
+    "used_in": "analysis"
+  },
+  {
+    "role": "2011 demographic_background",
+    "file": "2011 CHARLS Wave1/household_and_community_questionnaire_data/demographic_background.dta",
+    "sha256": "46d94759c9596b8198237c9460af2dc0550d8ef93812575826cc33279271cac0",
+    "used_in": "analysis"
+  },
+  {
+    "role": "2011 weight",
+    "file": "2011 CHARLS Wave1/household_and_community_questionnaire_data/weight.dta",
+    "sha256": "de6e2d9f6b84922ad2e53bcece868eb2ab831e5918da135d364912e597201571",
+    "used_in": "analysis"
+  },
+  {
+    "role": "2015 health_status_and_functioning",
+    "file": "2015 CHARLS Wave3/CHARLS2015r/Health_Status_and_Functioning.dta",
+    "sha256": "9e4dc760dd1363ba1f41d551e16fa3ae998de96d4d3796c88e95340c7c52ae5c",
+    "used_in": "analysis"
+  },
+  {
+    "role": "2015 demographic_background",
+    "file": "2015 CHARLS Wave3/CHARLS2015r/Demographic_Background.dta",
+    "sha256": "908707595240fa676544e1e26bebb50c13944df335571f5c2828e9663006578a",
+    "used_in": "analysis"
+  },
+  {
+    "role": "2015 sample_infor",
+    "file": "2015 CHARLS Wave3/CHARLS2015r/Sample_Infor.dta",
+    "sha256": "65a4026221f8cff0a86462602d4930c919faf335246a07eb8a3f509b998cbece",
+    "used_in": "analysis"
+  },
+  {
+    "role": "2018 health_status_and_functioning",
+    "file": "2018 CHARLS Wave4/CHARLS2018r/Health_Status_and_Functioning.dta",
+    "sha256": "6141804bd9ad5eb7842b03c19f1b37184d574891c6bd7dc6832f3922db0166e4",
+    "used_in": "analysis"
+  },
+  {
+    "role": "2018 Cognition",
+    "file": "2018 CHARLS Wave4/CHARLS2018r/Cognition.dta",
+    "sha256": "f8f31143ddebb134dbfae0ecf3e88f0f9482709ad0e2561ffab1781f9ad84792",
+    "used_in": "analysis"
+  },
+  {
+    "role": "2018 demographic_background",
+    "file": "2018 CHARLS Wave4/CHARLS2018r/Demographic_Background.dta",
+    "sha256": "c71e0c9072888951f0db66e40c6d45b92822f75c2429f8820618550420ca073b",
+    "used_in": "analysis"
+  },
+  {
+    "role": "2018 sample_infor",
+    "file": "2018 CHARLS Wave4/CHARLS2018r/Sample_Infor.dta",
+    "sha256": "51b66c071f4bd58dc51f88d92a664466e0b0fd11493dd42f5beee624a5a8fd82",
+    "used_in": "analysis"
+  }
+]

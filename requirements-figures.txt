@@ -1,0 +1,4 @@
+# Verified with Python 3.12.14. Also install the Poppler system utilities.
+matplotlib==3.10.8
+Pillow==13.0.0
+pypdf==6.21.4

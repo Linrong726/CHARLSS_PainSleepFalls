@@ -1,0 +1,12 @@
+build/
+__pycache__/
+*.pyc
+.venv/
+config.local.json
+LOCAL_MEMBER_AUDIT.csv
+*.dta
+*.zip
+data/aggregate/
+reference/FIGURE_SOURCE_LONG.csv
+analysis/code/reference/v121/01_patch/analysis_invariance.json
+analysis/code/reference/v21/08_QA_AND_REPRODUCIBILITY/nonfit_summary.json
